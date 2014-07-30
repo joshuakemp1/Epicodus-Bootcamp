@@ -1,0 +1,32 @@
+h1{
+  color: red;
+  text-align: center;
+}
+h2{
+  color: blue;
+  text-align: center;
+}
+p{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-style: italic;
+}
+ul{
+  font-style: 14px;
+  font-family: cursive;
+  color: green;
+  text-align: center;
+}
+.links{
+  background-color: yellow;
+  font-family: cursive;
+  font-weight: 400;
+  font-size: 28px;
+}
+.dog_images{
+  border-radius: 80px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: black;
+}

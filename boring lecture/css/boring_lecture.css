@@ -1,0 +1,43 @@
+body{
+  width: 900px;
+  margin: 0 auto;
+  background-color: #006352;
+}
+
+p.intro{
+  font-style: italic;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: #E0E0E0;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1.intro{
+  font-style: italic;
+  color: #F5D000;
+  background-color: black;
+  text-align: center;
+  border-radius: 20px;
+}
+
+h2.intro{
+  font-style: bold;
+  background-color: #F5D000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+h3.intro{
+  background-color: #E0E0E0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.pirate_images{
+  margin: 0px 0px 0px 320px;
+  border-width: 20px;
+  border-color: black;
+  border-style: solid;
+}
