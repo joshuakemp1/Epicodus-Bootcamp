@@ -4,3 +4,18 @@
   font-size: 22px;
   color: blue;
 }
+.color_splash{
+  font-size: 40px;
+  color: red;
+  font-style: italic;
+}
+.columns_1{
+  width: 35%;
+  background-color: gray;
+  float: left;
+}
+.columns_2{
+  width: 35%;
+  background-color: yellow;
+  float: left;
+}

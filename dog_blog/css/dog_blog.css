@@ -23,10 +23,43 @@ ul{
   font-family: cursive;
   font-weight: 400;
   font-size: 28px;
+  width: 330px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .dog_images{
   border-radius: 80px;
   border-style: solid;
   border-width: 5px;
   border-color: black;
+}
+.color_splash{
+  background-color: red;
+  width: 250px;
+  color: yellow;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.boldness{
+  color: orange;
+  font-family: Helvetica;
+  font-size: 40px;
+}
+.sidebar{
+  width: 30%;
+  background-color: yellow;
+  float: right;
+  color: black;
+  border: 2px solid red;
+  padding: 10px;
+  margin-left: 850px;
+  position: absolute;
+  margin-top: -20px;
+}
+.bolder{
+  color: red;
+  font-size: 30px;
 }
