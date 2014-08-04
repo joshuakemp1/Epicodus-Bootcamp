@@ -1,0 +1,28 @@
+.container{
+  margin-top: 50px;
+}
+
+#nav{
+  margin: 13px 0 0 0;
+}
+
+#nav ul li{
+  display: inline;
+  margin: 0 20px 0 0;
+  margin-bottom: 130px;
+}
+
+#nav a{
+  text-decoration: none;
+}
+
+#nav a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+#headerImage img{
+  margin-bottom: 50px;
+  min-width: 100%;
+  height: auto;
+}
