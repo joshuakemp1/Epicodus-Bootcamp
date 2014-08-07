@@ -1,0 +1,13 @@
+#showing{
+  display: none;
+}
+
+#hidden{
+  display: block;
+}
+
+.bolder{
+  font-size: 40px;
+  color: red;
+  cursor: pointer;
+}
