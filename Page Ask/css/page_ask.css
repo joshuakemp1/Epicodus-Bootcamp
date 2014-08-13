@@ -1,0 +1,6 @@
+#uppercase{
+  display: none;
+}
+span.question_asker{
+  text-transform: uppercase;
+}

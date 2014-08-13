@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/page_ask.css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <title>Page Ask!</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1>This is a page that asks you a question, and then spits it back at you all in uppercase!</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="question_asker">Type in your question here</label>
+            <input type="text" class="form_control" id="question_asker">
+          </div>
+          <button type="submit" class="btn btn-warning">Click here to uppercase!</button>
+        </form>
+
+
+        <div id="uppercase">
+          <h2>Here is everything you enter uppercased!</h2>
+          <p><span class="question_asker"></span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
