@@ -23,11 +23,12 @@ $(document).ready(function() {
       $(this).remove();
     });
   });
-  $('button#change').click(function() {
-    $('body').removeClass();
-    $('body').addClass("black_background");
-    $('body').addClass("#fonts");
-  });
+    $('button#change').click(function() {
+      $('body').toggleClass('black_background');
+      $('#c_img, #d_img').toggleClass("image_border");
+    });
+
+
 
 
 });

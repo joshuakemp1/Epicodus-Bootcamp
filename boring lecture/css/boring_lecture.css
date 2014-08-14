@@ -3,7 +3,9 @@ body{
   margin: 0 auto;
   background-color: #006352;
 }
-
+p{
+  color: black;
+}
 .intro{
   color: #F5D000;
   text-align: center;
@@ -41,4 +43,9 @@ body{
   width: 30%;
   background-color: yellow;
   float: right;
+}
+.page_border{
+  color: yellow;
+  height: 20px;
+  width: 20px;
 }

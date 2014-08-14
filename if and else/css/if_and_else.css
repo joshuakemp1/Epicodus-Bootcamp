@@ -10,16 +10,17 @@
   display: none;
 }
 
-#no_show{
-  display: none;
-  padding-top: 100px;
-  width: 600px;
-  margin: 0 auto;
-  font-size: 30px;
-  color: red;
+.body_black{
+  background-color: black;
 }
 
-#body_black{
-  background-color: black;
-  display: none;
+.yellow{
+  color: yellow;
+  font-size: 30px;
+  background-color: red;
+  width: 1250px;
+  margin: 0 auto;
+  border-radius: 40px;
+  padding-left: 30px;
+  margin-top: 200px;
 }
