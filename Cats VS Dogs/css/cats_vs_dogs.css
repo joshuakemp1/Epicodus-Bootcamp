@@ -5,3 +5,9 @@ img{
 .black_background{
   background-color: black;
 }
+
+
+#fonts,.col-md-6,title,h1,h3,p,h2,ul{
+  color: white;
+
+}

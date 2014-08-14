@@ -1,0 +1,25 @@
+#javascript{
+  display: none;
+}
+
+#ruby{
+  display: none;
+}
+
+#net{
+  display: none;
+}
+
+#no_show{
+  display: none;
+  padding-top: 100px;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 30px;
+  color: red;
+}
+
+#body_black{
+  background-color: black;
+  display: none;
+}

@@ -1,4 +1,7 @@
 jQuery(document).ready(function() {
+
+  var body_change = $("#body_black");
+
   jQuery("h1").hover(function() {
     alert("This is a header.");
   });
