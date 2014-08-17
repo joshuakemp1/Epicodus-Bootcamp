@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/dating.css">
+  <script src="js/jquery-1.11.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <head>
+    <meta charset="UTF-8">
+    <title>Who Should You Date?</title>
+  </head>
+  <body>
+   <div class="container-fluid">
+      <h1>Who Should I Date?</h1>
+
+      <p>We can tell you who you should date if you give us just a little bit of information:</p>
+
+      <form id="dating">
+        <label for="age"></label>
+        <input type="text" id="age">
+        <label for="gender"></label>
+        <input type="text" id="gender">
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+      <button type="submit" class="btn btn-danger">Get me a date!</button>
+      </form>
+
+      <div id="quote">
+        <p>After carefully calculating your information, we think you will be happiest if you date <span id="person"></span>, we wish you many happy years together!</p>
+      </div>
+   </div>
+  </body>
+</html>

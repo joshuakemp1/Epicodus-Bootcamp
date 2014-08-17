@@ -1,5 +1,12 @@
 #javascript{
-  display: none;
+  font-size: 30px;
+  width: 800px;
+  margin: 0 auto;
+  color: red;
+  background-color: yellow;
+  margin-top: 250px;
+  border-radius: 50px;
+  padding: 20px;
 }
 
 #ruby{
@@ -14,7 +21,7 @@
   background-color: black;
 }
 
-.yellow{
+.yell{
   color: yellow;
   font-size: 30px;
   background-color: red;
