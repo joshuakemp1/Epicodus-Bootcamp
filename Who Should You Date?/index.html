@@ -13,22 +13,24 @@
       <h1>Who Should I Date?</h1>
 
       <p>We can tell you who you should date if you give us just a little bit of information:</p>
+      <div class="form-group has-error">
+        <form id="dating">
+          <label for="age">Age</label>
+          <div class="col-xs-2">
+            <input type="text" id="inputError1" class="form-control age">
+          </div>
+          <select id="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+          </select>
 
-      <form id="dating">
-        <label for="age"></label>
-        <input type="text" id="age">
-        <label for="gender"></label>
-        <input type="text" id="gender">
-        <select id="gender">
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-        </select>
+        <button type="submit" class="btn btn-danger">Get me a date!</button>
+        </form>
+      </div>
 
-      <button type="submit" class="btn btn-danger">Get me a date!</button>
-      </form>
-
-      <div id="quote">
-        <p>After carefully calculating your information, we think you will be happiest if you date <span id="person"></span>, we wish you many happy years together!</p>
+      <div id="your_date">
+        <p>After carefully calculating your information, we think you will be happiest if you date <span id="person"></span>!  If you don't find them and marry, you will spend the rest of your life in miserable agony :-D  We wish you many happy years together!</p>
       </div>
    </div>
   </body>
