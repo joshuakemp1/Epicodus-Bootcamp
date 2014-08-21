@@ -3,10 +3,18 @@ $(document).ready(function() {
 
     var  blanks = ['person_1', 'person_2', 'animal', 'exclamation', 'verb', 'noun'];
 
+
+
+    for (var i = 0; i < blanks.length; i++) {
+        var userInput = $("input#" + blanks).val();
+        $('.' + blanks).text(userInput);
+    }
+
     blanks.forEach(function(blank) {
         var userInput = $("input#" + blank).val();
         $('.' + blank).text(userInput);
     });
+
     // var person_1Input = $("input#person_1").val();
     // var person_2Input = $("input#person_2").val();
     // var animal_Input = $("input#animal").val();
