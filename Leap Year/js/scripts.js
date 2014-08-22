@@ -9,7 +9,6 @@ var leapYear = function(year) {
   }
 };
 
-
 jQuery(document).ready(function($) {
   $("form#leap_year").submit(function(event) {
     var year = parseInt($("input#year").val());
@@ -26,3 +25,21 @@ jQuery(document).ready(function($) {
     event.preventDefault();
   });
 });
+
+
+// var leapYear = function(year) {
+//   if (!(year % 400) || !(year % 4) && (year % 100)) {
+//     return true;
+//   }
+//   return false;
+// };
+
+// jQuery(document).ready(function($) {
+//   $("form#leap_year").submit(function(event) {
+//     var year = parseInt($("input#year").val());
+//     var isLeapYear = leapYear(year);
+
+//     $('#result').html('<p><span class="year">'+year+'</span> is' + (isLeapYear ? '' : ' not') + ' a leap year.</p>');
+//     event.preventDefault();
+//   });
+// });
